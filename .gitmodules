@@ -1,0 +1,6 @@
+[submodule "ming/vlmcsd"]
+	path = ming/vlmcsd
+	url = https://github.com/mchome/vlmcsd.git
+[submodule "ming/ddns-scripts_aliyun"]
+	path = ming/ddns-scripts_aliyun
+	url = https://github.com/sensec/ddns-scripts_aliyun.git
