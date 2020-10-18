@@ -1,0 +1,9 @@
+#cp ./legacy.mk ../mips/target/linux/ar71xx/image/legacy.mk
+#cp ./common-tp-link.mk ../mips/target/linux/ar71xx/image/common-tp-link.mk
+cp ./shadow ../mips/package/base-files/files/etc/shadow
+cp ./hosts ../mips/package/base-files/files/etc/hosts
+cp ./config_generate ../mips/package/base-files/files/bin/config_generate
+cp ./mac80211.sh ../mips/package/kernel/mac80211/files/lib/wifi/mac80211.sh
+cp ./luci ../mips/feeds/luci/modules/luci-base/root/etc/config/luci
+cp ./dhcp.conf ../mips/package/network/services/dnsmasq/files/dhcp.conf
+#cp ./dnsmasq.conf ../mips/package/network/services/dnsmasq/files/dnsmasq.conf

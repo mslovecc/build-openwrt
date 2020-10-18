@@ -1,0 +1,9 @@
+#cp ./legacy.mk ../sunxi/target/linux/ar71xx/image/legacy.mk
+#cp ./common-tp-link.mk ../sunxi/target/linux/ar71xx/image/common-tp-link.mk
+cp ./shadow ../sunxi/package/base-files/files/etc/shadow
+cp ./hosts ../sunxi/package/base-files/files/etc/hosts
+cp ./config_generate ../sunxi/package/base-files/files/bin/config_generate
+cp ./mac80211.sh ../sunxi/package/kernel/mac80211/files/lib/wifi/mac80211.sh
+cp ./luci ../sunxi/feeds/luci/modules/luci-base/root/etc/config/luci
+cp ./dhcp.conf ../sunxi/package/network/services/dnsmasq/files/dhcp.conf
+#cp ./dnsmasq.conf ../sunxi/package/network/services/dnsmasq/files/dnsmasq.conf
