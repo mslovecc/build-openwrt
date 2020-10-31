@@ -15,7 +15,8 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
+chmod +x ../lede/copy-sunxi.sh
+../lede/copy-sunxi.sh
 mkdir package/ming
 git clone https://github.com/mslovecc/luci-app-vlmcsd.git package/ming/luci-app-vlmcsd
 git clone https://github.com/mslovecc/openwrt-vlmcsd.git package/ming/openwrt-vlmcsd
