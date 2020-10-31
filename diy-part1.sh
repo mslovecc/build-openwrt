@@ -15,3 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+git clone https://github.com/mslovecc/luci-app-vlmcsd.git package/ming/luci-app-vlmcsd
+git clone https://github.com/mslovecc/openwrt-vlmcsd.git package/ming/openwrt-vlmcsd
+git clone https://github.com/mslovecc/ddns-scripts_aliyun.git package/ming/ddns-scripts_aliyun
